@@ -1,6 +1,5 @@
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-
 import javax.imageio.ImageIO;
 
 public class bullet {
@@ -22,7 +21,7 @@ public class bullet {
     {
         try{
             
-            n= ImageIO.read(getClass().getResourceAsStream("/a/fire.png"));
+            n= ImageIO.read(getClass().getResourceAsStream("/image/fire.png"));
         }
         catch (Exception e) {
             

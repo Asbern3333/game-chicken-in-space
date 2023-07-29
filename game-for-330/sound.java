@@ -1,4 +1,5 @@
 
+import java.io.BufferedInputStream;
 import java.net.URL;
 
 import javax.sound.sampled.AudioInputStream;
@@ -7,22 +8,23 @@ import javax.sound.sampled.Clip;
 
 public class sound {
     Clip clip;
-    URL soundurl[]=new URL[3];
+    URL soundurl[]=new URL[2];
     public sound()
     {
-        soundurl[0] = getClass().getResource("/Game/ch.wav");
-        soundurl[1] = getClass().getResource("/a/fire.mp3");
-        soundurl[2] = getClass().getResource("/a/chkdie.mp3");
-    }   
+        soundurl[0] = getClass().getResource("/music/3.wav");
+    soundurl[1] = getClass().getResource("/music/ch.wav");
+    }
     public void setfile(int i)
     {
+        
         try {
-            AudioInputStream ais = AudioSystem.getAudioInputStream(soundurl[i]);
+            
+        AudioInputStream ais = AudioSystem.getAudioInputStream(soundurl[i]);
         clip = AudioSystem.getClip();
         clip.open(ais);
         
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println(e);     
         }
     }
     public void play()
@@ -37,4 +39,5 @@ public class sound {
     {
         clip.stop();
     }
+    
 }

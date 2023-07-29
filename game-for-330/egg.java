@@ -25,11 +25,11 @@ class egg extends GenerateRandom{
     }
     public void setimage()
     {try{
-            tegg1=ImageIO.read(getClass().getResourceAsStream("/a/tegg1.png"));
-            tegg2=ImageIO.read(getClass().getResourceAsStream("/a/tegg1.png"));
-            fegg1=ImageIO.read(getClass().getResourceAsStream("/a/fegg1.png"));
-            fegg2=ImageIO.read(getClass().getResourceAsStream("/a/fegg2.png"));
-            aegg=ImageIO.read(getClass().getResourceAsStream("/a/aegg.png"));
+            tegg1=ImageIO.read(getClass().getResourceAsStream("/image/tegg1.png"));
+            tegg2=ImageIO.read(getClass().getResourceAsStream("/image/tegg1.png"));
+            fegg1=ImageIO.read(getClass().getResourceAsStream("/image/fegg1.png"));
+            fegg2=ImageIO.read(getClass().getResourceAsStream("/image/fegg2.png"));
+            aegg=ImageIO.read(getClass().getResourceAsStream("/image/aegg.png"));
         }
         catch (Exception e) {
             

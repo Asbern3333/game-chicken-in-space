@@ -30,23 +30,23 @@ public class monster extends entity{
     public void getPlayerimage(){
         try {
 
-            llg= ImageIO.read(getClass().getResourceAsStream("/a/greenchklm.png"));//left walking greenck
-            lg=ImageIO.read(getClass().getResourceAsStream("/a/greenchkls.png"));//leftstop greenck
+            llg= ImageIO.read(getClass().getResourceAsStream("/image/greenchklm.png"));//left walking greenck
+            lg=ImageIO.read(getClass().getResourceAsStream("/image/greenchkls.png"));//leftstop greenck
 
-            rg=ImageIO.read(getClass().getResourceAsStream("/a/greenchkrs.png"));//right stop  green ck
-            rrg=ImageIO.read(getClass().getResourceAsStream("/a/greenchkrm.png"));//right move //green ck
+            rg=ImageIO.read(getClass().getResourceAsStream("/image/greenchkrs.png"));//right stop  green ck
+            rrg=ImageIO.read(getClass().getResourceAsStream("/image/greenchkrm.png"));//right move //green ck
 
-            llw= ImageIO.read(getClass().getResourceAsStream("/a/wchklm.png"));//left walking white ch
-            lw=ImageIO.read(getClass().getResourceAsStream("/a/wchkls.png"));//left move white ch 
+            llw= ImageIO.read(getClass().getResourceAsStream("/image/wchklm.png"));//left walking white ch
+            lw=ImageIO.read(getClass().getResourceAsStream("/image/wchkls.png"));//left move white ch 
 
-            rw=ImageIO.read(getClass().getResourceAsStream("/a/wchkrs.png"));//right stop  white ck
-            rrw=ImageIO.read(getClass().getResourceAsStream("/a/wchkrm.png"));//right move white ck
+            rw=ImageIO.read(getClass().getResourceAsStream("/image/wchkrs.png"));//right stop  white ck
+            rrw=ImageIO.read(getClass().getResourceAsStream("/image/wchkrm.png"));//right move white ck
 
-            lly= ImageIO.read(getClass().getResourceAsStream("/a/ychklm.png"));//left walking yellow ch
-            ly=ImageIO.read(getClass().getResourceAsStream("/a/ychkls.png"));//left move yellow ch 
+            lly= ImageIO.read(getClass().getResourceAsStream("/image/ychklm.png"));//left walking yellow ch
+            ly=ImageIO.read(getClass().getResourceAsStream("/image/ychkls.png"));//left move yellow ch 
 
-            ry=ImageIO.read(getClass().getResourceAsStream("/a/ychkrs.png"));//right stop  yellow ck
-            rry=ImageIO.read(getClass().getResourceAsStream("/a/ychkrm.png"));//right move yellow ck
+            ry=ImageIO.read(getClass().getResourceAsStream("/image/ychkrs.png"));//right stop  yellow ck
+            rry=ImageIO.read(getClass().getResourceAsStream("/image/ychkrm.png"));//right move yellow ck
 
             
         } catch (Exception e) {

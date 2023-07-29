@@ -24,13 +24,13 @@ public class Player  extends entity{
     }
     public void getPlayerimage(){
         try {
-            ll= ImageIO.read(getClass().getResourceAsStream("/a/ll.png"));
-            l= ImageIO.read(getClass().getResourceAsStream("/a/l.png"));
-            n= ImageIO.read(getClass().getResourceAsStream("/a/n.png"));
-            rr= ImageIO.read(getClass().getResourceAsStream("/a/rr.png"));
-            r= ImageIO.read(getClass().getResourceAsStream("/a/r.png"));
-            chk=ImageIO.read(getClass().getResourceAsStream("/a/chk.jpg"));
-            llg=ImageIO.read(getClass().getResourceAsStream("/a/space.png"));
+            ll= ImageIO.read(getClass().getResourceAsStream("/image/ll.png"));
+            l= ImageIO.read(getClass().getResourceAsStream("/image/l.png"));
+            n= ImageIO.read(getClass().getResourceAsStream("/image/n.png"));
+            rr= ImageIO.read(getClass().getResourceAsStream("/image/rr.png"));
+            r= ImageIO.read(getClass().getResourceAsStream("/image/r.png"));
+            chk=ImageIO.read(getClass().getResourceAsStream("/image/chk.jpg"));
+            llg=ImageIO.read(getClass().getResourceAsStream("/image/space.png"));
         } catch (Exception e) {
             
         }

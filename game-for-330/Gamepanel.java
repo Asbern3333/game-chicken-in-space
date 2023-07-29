@@ -42,6 +42,7 @@ public class Gamepanel extends JPanel implements Runnable{
     }
     @Override
     public void run() {
+       
         double drawinterval=1000000000/FPS;//one second in nano= 1 b nanot second   1000000000/60=1/60=0.01666666
         double delta=0;
         long lasttime= System.nanoTime();//to draw the screen next time current time +
@@ -90,6 +91,7 @@ public class Gamepanel extends JPanel implements Runnable{
         } 
         if(monster1.fboss==true)
         {
+            
             gameThread=null;
         }
 
@@ -110,10 +112,12 @@ public class Gamepanel extends JPanel implements Runnable{
     e.draw(g2,monster1);
     monster1.draw(g2);
     if(player.gameover==false)
-    player.gameover(g2);
+    {player.gameover(g2);
+    stopM();}
     if(monster1.fboss==true)
     {player.win(g2);
-
+    stopM();
+    playSE(1);
     }
      g2.dispose();//dispose of these graphics' context and release any resource system that is using it
     }
