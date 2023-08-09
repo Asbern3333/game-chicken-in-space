@@ -14,4 +14,9 @@ I created the game using the Java programming language.
 # Screenshot Of The Game
 ![Screenshot 2023-08-09 3 26 31 PM](https://github.com/Asbern3333/game-chicken-in-space/assets/114946775/50935a57-a75a-4a9f-89f7-18d2a139081f)
 
-# Demo video
+# Demo
+
+https://github.com/Asbern3333/game-chicken-in-space/assets/114946775/cf18f417-57ad-46b2-8c9b-045507623153
+
+
+
