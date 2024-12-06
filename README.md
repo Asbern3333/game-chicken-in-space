@@ -1,6 +1,7 @@
 # chicken-in-space from scratch
 
 # description
+- Making engine in Java
 - Chicken-In-Space is a game that was my project for the course object-oriented class.
 - It is about a plane in a space that shoots the moving chickens and tries to stay alive.
 # installation
