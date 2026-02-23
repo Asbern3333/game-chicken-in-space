@@ -1,5 +1,7 @@
 # chicken-in-space from scratch
 
+# How to Run
+  Open Main and run it on VS Code. First of all you have to do the installaion if it doesnot work
 # description
 - Making the game from scratch (without already built engine)
 - Chicken-In-Space is a game that was my project for the course object-oriented class.
